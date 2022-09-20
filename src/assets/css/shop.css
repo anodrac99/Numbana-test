@@ -1,0 +1,25 @@
+.products-container {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.product-container {
+    width: 23.3%;
+    height: 320px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.product-container img {
+    width: 90%;
+    height: auto;
+}
